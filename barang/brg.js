@@ -81,23 +81,6 @@ $(function() {
   }
 
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   $("#btn_simpan").on('click', function (e) {
     // alert('nyobak tok isok po ora');
       var id_brg = $('#id_brg').val();
@@ -238,12 +221,12 @@ $.ajax({
     user_id: a,
   },
   success: function (data) {
-    if (data == "1") {
-      toastr.success("data berhasil dihapus");
-      location.reload();
-    } else {
+    if (data = '1') {
+      toastr.success('Data berhasil dihapus');
+      loadData();
+  }else{
       toastr.danger(data);
-    }
+  }
   },
 });
 }

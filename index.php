@@ -33,7 +33,7 @@
             <div class="icon">
               <i class="ion ion-person-add"></i>
             </div>
-            <a href="user.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="user.php" class="small-box-footer">Informasih lebih lanjut <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -47,7 +47,7 @@
             <div class="icon">
               <i class="ion ion-stats-bars"></i>
             </div>
-            <a href="barang.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="barang.php" class="small-box-footer">Informasih lebih lanjut <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -61,7 +61,7 @@
             <div class="icon">
               <i class="ion ion-bag"></i>
             </div>
-            <a href="brg_masuk.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="brg_masuk.php" class="small-box-footer">Informasih lebih lanjut <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -75,7 +75,7 @@
             <div class="icon">
               <i class="ion ion-pie-graph"></i>
             </div>
-            <a href="brg_keluar.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="brg_keluar.php" class="small-box-footer">Informasih lebih lanjut <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
 

@@ -120,4 +120,4 @@
 <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
 <?php include 'partial/footer.php'; ?>
 <script src="partial/index.js"></script>
-<script src="chart/chart.js"></script>
+<script src="chart//chart.js"></script>

@@ -64,7 +64,7 @@ function filterData() {
 
 function loadData() {
     $.ajax({
-        url: "report/getData.php",
+        url: "report/getData1.php",
         type: "get",
         success: function (data) {
             $("#tabel").dataTable().fnClearTable();

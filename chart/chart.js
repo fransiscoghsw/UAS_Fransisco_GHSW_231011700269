@@ -4,7 +4,7 @@ $(function () {
   
   function loadData() {
     $.ajax({
-      url: "dashboard/getData.php",
+      url: "chart/getData.php",
       type: "get",
       dataType: "json",
       success: function (data) {

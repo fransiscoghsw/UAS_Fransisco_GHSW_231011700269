@@ -16,7 +16,7 @@
           class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="../project_web/user.php" class="d-block">Fransisco GHSW</a>
+          <a href="../UAS_Fransisco_GHSW_231011700269/user.php" class="d-block">Fransisco GHSW</a>
         </div>
       </div>
 

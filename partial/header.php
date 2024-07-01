@@ -66,8 +66,6 @@ if ($_SESSION['status'] != 'login'){
   <script src="assets/AdminLTE/plugins/summernote/summernote-bs4.min.js"></script>
   <!-- overlayScrollbars -->
   <script src="assets/AdminLTE/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-  <!-- AdminLTE App -->
-  <script src="assets/AdminLTE/dist/js/adminlte.js"></script>
   <!-- AdminLTE for demo purposes -->
   <!-- <script src="assets/AdminLTE/dist/js/demo.js"></script> -->
   <!-- AdminLTE dashboard demo(This only for demo purposes) -->
@@ -91,8 +89,6 @@ if ($_SESSION['status'] != 'login'){
   <script src="assets/AdminLTE/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
   <!-- AdminLTE App -->
   <script src="assets/AdminLTE/dist/js/adminlte.min.js"></script>
-  <!-- Bootstrap 4 -->
-  <script src="assets/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <link rel="stylesheet" href="assets/AdminLTE/plugins/select2/css/select2.min.css">
   <link rel="stylesheet" href="assets/AdminLTE/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">

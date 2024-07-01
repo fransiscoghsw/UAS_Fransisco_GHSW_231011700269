@@ -63,7 +63,7 @@ $harga      = $data['harga'];
         <input type="number" class="form-control" id="harga_e" name="harga_e" value="<?php echo $harga ?>">
       </div>
       <div class="modal-footer justify-content-between">
-        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Tutup</button>
         <button type="button" id="btn_ubah" name="btn_ubah" class="btn btn-primary btn-sm">Ubah data</button>
       </div>
     </div>

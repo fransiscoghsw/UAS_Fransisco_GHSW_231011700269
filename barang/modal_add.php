@@ -51,7 +51,7 @@ $idBarang = $huruf . sprintf("%04s", $urutan);
         <input type="number" class="form-control" id="harga" name="harga" />
       </div>
       <div class="modal-footer justify-content-between">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
         <button type="button" name="btn_simpan" id="btn_simpan" class="btn btn-primary">Simpan</button>
       </div>
     </div>

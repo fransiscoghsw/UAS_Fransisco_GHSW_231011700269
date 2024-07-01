@@ -27,19 +27,16 @@ $harga      = $data['harga'];
         <label>Nama Barang</label>
         <input type="text" class="form-control" id="nama_brg_e" name="nama_brg_e" value="<?php echo $nama_brg ?>">
         <label>Jenis Barang</label>
-        <select class="form-control" id="jenis_e" name="jenis_e">
-          <?php
-          $query = "SELECT * FROM tb_jenis";
-          $sql = mysqli_query($conn, $query);
-          while ($data = mysqli_fetch_array($sql)) {
-            if ($jenis == $data['id_jenis']) {
-              $select   = "selected";
-            } else {
-              $select   = "";
-            }
-            echo "<option $select value='" . $data['id_jenis'] . "'>" . $data['jenis'] . "</option>";
-          }
-          ?>
+        <select name="jenis_e" id="jenis_e" class="form-control">
+          <option <?php if ($nama_brg == 'ATK') {
+                    echo 'selected';
+                  } ?>>ATk</option>
+          <option <?php if ($nama_brg == 'Minuman') {
+                    echo 'selected';
+                  } ?>>Minuman</option>
+          <option <?php if ($nama_brg == 'Makanan') {
+                    echo 'selected';
+                  } ?>>Makanan</option>
         </select>
         <label>Satuan</label>
         <select name="satuan_e" id="satuan_e" class="form-control">
@@ -63,8 +60,8 @@ $harga      = $data['harga'];
         <input type="number" class="form-control" id="harga_e" name="harga_e" value="<?php echo $harga ?>">
       </div>
       <div class="modal-footer justify-content-between">
-        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
-        <button type="button" id="btn_ubah" name="btn_ubah" class="btn btn-primary btn-sm">Ubah data</button>
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Tutup</button>
+        <button type="button" id="btn_ubah" class="btn btn-primary btn-sm">Ubah data</button>
       </div>
     </div>
 

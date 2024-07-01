@@ -2,9 +2,10 @@
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" data-widget="pushmenu" href="assets/AdminLTE/#" role="button"><i
-                    class="fas fa-bars"></i></a>
+      <li class="nav-item">
+      <a class="nav-link" data-widget="pushmenu" data-toggle="pushmenu" href="#" role="button">
+        <i class="fas fa-bars"></i>
+      </a>
 
       </li>
       <li class="nav-item d-none d-sm-inline-block">
@@ -57,7 +58,7 @@
             
             <!-- Menu Footer-->
             <li class="user-footer">
-              <a href="login/logout.php" class="btn btn-default btn-flat float-right">Keluar</a>
+              <a href="login/logout.php" class="btn btn-default btn-flat float-right">Sign out</a>
             </li>
           </ul>
         </li>

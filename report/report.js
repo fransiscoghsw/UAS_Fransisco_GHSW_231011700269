@@ -89,7 +89,7 @@ function loadData() {
                         title: 'Data Report Barang',
                         filename: 'Data Report Barang',
                         exportOptions: {
-                            columns: [0, 1, 2, 3, 4, 5],
+                            columns: [0, 1, 2, 3, 4, 5, 6, 7, 9],
                             modifier: {
                                 page: 'current'
                             }
@@ -101,7 +101,7 @@ function loadData() {
                         title: 'Data Report Barang',
                         filename: 'Data Report Barang',
                         exportOptions: {
-                            columns: [0, 1, 2, 3, 4, 5],
+                            columns: [0, 1, 2, 3, 4, 5, 6, 7, 9],
                         },
                         customize:function (doc){
                             doc.content[1].table.widths = ['10%','20%','20%','20%','20%','10%']

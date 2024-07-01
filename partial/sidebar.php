@@ -123,20 +123,18 @@
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="user.php" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>
+          <ul class="nav nav-treeview">
+          <li class="nav-item">
+            <a href="user.php" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+                <p>
                     Data Pengguna
-                    <i class="fas fa-angle-left right"></i>
-                  </p>
-                </a>
-             </ul>
-            </li>
-          <ul>
+                  <i class="fas fa-angle-left right"></i>
+                </p>
+              </a>
+            </ul>
+          </li>
+        <ul>
       </nav>
-      <!-- /.sidebar-menu -->
     </div>
-    <!-- /.sidebar -->
   </aside>

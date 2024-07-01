@@ -84,7 +84,7 @@ $(function() {
                      if (data == '1') {
                          // alert('data berhasil diubah');
                          loadData();
-                         $('#modal_add').modal('hide');
+                         $('#modal_edit').modal('hide');
                          toastr.success('data berhasil diubah');
                      } else {
                          alert(data);

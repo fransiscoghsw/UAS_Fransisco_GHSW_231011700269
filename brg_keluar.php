@@ -44,7 +44,7 @@ include "./koneksi.php";
                 </div>
                 <div class="col-6 text-right">
                   <div class="form-group">
-                    <button class="btn btn-sm btn-info btn-sm" id="btn_add">Add Data</button>
+                    <button class="btn btn-sm btn-info btn-sm" id="btn_add">Tambah Data</button>
                   </div>
                 </div>
               </div>

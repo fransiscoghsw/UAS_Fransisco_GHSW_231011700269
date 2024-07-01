@@ -42,7 +42,7 @@ $idKeluar = $huruf . '-' . $tgl . '-' . sprintf("%04s", $urutan);
         <input type="text" class="form-control" id="nama_brg" name="nama_brg" readonly />
         <label for="">Stok Barang</label>
         <input type="text" class="form-control" id="stok" name="stok" readonly />
-        <label for="">Harga</label>
+        <label for="">Jumlah Keluar</label>
         <input type="number" class="form-control" id="jml" name="jml" />
       </div>
       <div class="modal-footer justify-content-between">

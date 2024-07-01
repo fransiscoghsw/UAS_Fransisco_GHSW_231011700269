@@ -29,18 +29,16 @@ function filterData() {
                     [10, 20, 25, 50, 100, 15, 5, -1],
                     ["10", "20", "25", "50", "100", "15", "5", "show all"],
                 ],
-                paging: true,
                 searching: true,
-                ordering: true,
-                dom: '<"top"lB>rt<"bottom"ip><"clear">',
-                buttons: [
-                    {
+                dom: 'Blfrtip',
+                buttons: [{
+            
                         extend: 'excelHtml5',
                         text: 'Download Excel',
                         title: 'Data Report Barang',
                         filename: 'Data Report Barang',
                         exportOptions: {
-                            columns: [0, 1, 2, 3, 4, 5],
+                            columns: [0, 1, 2, 3, 4, 5, 6, 7, 8],
                             modifier: {
                                 page: 'current'
                             }
@@ -48,14 +46,14 @@ function filterData() {
                     },
                     {
                         extend: 'pdf',
-                        text: 'Report PDF',
+                        text: 'Download PDF',
                         title: 'Data Report Barang',
                         filename: 'Data Report Barang',
                         exportOptions: {
-                            columns: [0, 1, 2, 3, 4, 5],
+                            columns: [0, 1, 2, 3, 4, 5, 6, 7, 8],
                         },
-                        customize:function (doc){
-                            doc.content[1].table.widths = ['10%','20%','20%','20%','20%','10%']
+                        customize: function (doc) {
+                            doc.content[1].table.widths = ['10%', '10%', '20%', '10%', '10%', '10%', '10%', '10%', '10%'];
                         }
                     },
                 ]
@@ -78,18 +76,16 @@ function loadData() {
                     [10, 20, 25, 50, 100, 15, 5, -1],
                     ["10", "20", "25", "50", "100", "15", "5", "show all"],
                 ],
-                paging: true,
                 searching: true,
-                ordering: true,
-                dom: '<"top"lB>rt<"bottom"ip><"clear">',
-                buttons: [
-                    {
+                dom: 'Blfrtip',
+                buttons: [{
+            
                         extend: 'excelHtml5',
                         text: 'Download Excel',
                         title: 'Data Report Barang',
                         filename: 'Data Report Barang',
                         exportOptions: {
-                            columns: [0, 1, 2, 3, 4, 5, 6, 7, 9],
+                            columns: [0, 1, 2, 3, 4, 5, 6, 7, 8],
                             modifier: {
                                 page: 'current'
                             }
@@ -97,14 +93,14 @@ function loadData() {
                     },
                     {
                         extend: 'pdf',
-                        text: 'Report PDF',
+                        text: 'Download PDF',
                         title: 'Data Report Barang',
                         filename: 'Data Report Barang',
                         exportOptions: {
-                            columns: [0, 1, 2, 3, 4, 5, 6, 7, 9],
+                            columns: [0, 1, 2, 3, 4, 5, 6, 7, 8],
                         },
-                        customize:function (doc){
-                            doc.content[1].table.widths = ['10%','20%','20%','20%','20%','10%']
+                        customize: function (doc) {
+                            doc.content[1].table.widths = ['10%', '10%', '20%', '10%', '10%', '10%', '10%', '10%', '10%'];
                         }
                     },
                 ]
